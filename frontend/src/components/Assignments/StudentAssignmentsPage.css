@@ -1,0 +1,72 @@
+/* StudentAssignmentsPage.css */
+
+/* Label Styling */
+.font-weight-bold {
+    font-weight: bold;
+  }
+  
+  /* Form Control Styling */
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  /* Status Select Styling */
+  .status-select {
+    border-radius: 5px;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 5px;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+  
+  /* List Group Styling */
+  .list-group-item {
+    border: none;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e2e6ea;
+  }
+  
+  /* Status Badge Styling */
+  .status-badge {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  .badge-success {
+    background-color: #28a745;
+  }
+  
+  .badge-primary {
+    background-color: #007bff;
+  }
+  

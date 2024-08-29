@@ -1,0 +1,20 @@
+/* AdminAttendance.css */
+
+.attendance-card {
+    transition: transform 0.2s ease;
+    border-left: 5px solid transparent;
+    font-size: 0.9rem; /* Smaller font size */
+}
+
+.attendance-card:hover {
+    transform: translateY(-2px);
+}
+
+.verified {
+    border-left-color: #28a745; /* Green border for verified cards */
+}
+
+.attendance-card .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem; /* Smaller button */
+}

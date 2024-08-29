@@ -1,0 +1,43 @@
+/* dashboard.css */
+
+/* Transparent Card Styles */
+.card {
+    background: rgba(110, 34, 34, 0.404); /* Adjust opacity (0.8) as needed */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for better visibility */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for animations */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover for depth */
+  }
+  
+  .card-body {
+    padding: 2rem; /* Add padding inside the card */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card-text {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Fade-in effect for welcome message */
+  .fade-enter {
+    opacity: 0;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  

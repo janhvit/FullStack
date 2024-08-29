@@ -1,0 +1,11 @@
+.initials {
+    font-size: 1.5rem; /* Larger font size for initials */
+    font-weight: bold;
+    margin-left: 0.5rem;
+    color: white; /* White color for better contrast */
+  }
+  
+  .dropdown-toggle::after {
+    display: none; /* Remove the default dropdown arrow */
+  }
+  

@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url('./pexels-olia-danilevich-5088017.jpg');
+  background-size: cover;
+  margin: 0;
+  background-attachment: fixed;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* In your CSS file (e.g., App.css) */
+.custom-small-input {
+  width: 100%; /* Adjust as needed */
+  max-width: 200px; /* Adjust as needed */
+  padding: 0.25rem; /* Adjust as needed */
+}

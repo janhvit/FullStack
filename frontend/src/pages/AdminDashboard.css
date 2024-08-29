@@ -1,0 +1,18 @@
+/* Optional: Style adjustments for Navbar and Logout Button */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar .nav-link {
+    color: #fff !important; /* Ensure link color contrasts with background */
+  }
+  
+  .navbar .btn-danger {
+    margin-top: 8px; /* Adjust as needed */
+  }
+  
+.logout{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}

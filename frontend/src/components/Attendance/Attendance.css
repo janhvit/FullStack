@@ -1,0 +1,50 @@
+.date-picker-container {
+    position: relative;
+    z-index: 1200; /* Ensures the DatePicker popover is above other content */
+}
+
+.react-datepicker-popper {
+    z-index: 1050; /* Higher than the DatePicker popper */
+}
+
+.card {
+    overflow: visible !important; /* Ensures the overflow does not hide the DatePicker */
+}
+
+ 
+/* Adjust the calendar tile styles based on attendance */
+.verified-present {
+    background-color: #28a745; /* Green background for verified present */
+    color: white; /* White text color */
+}
+ 
+.verified-absent {
+    background-color: #dc3545; /* Red background for verified absent */
+    color: white; /* White text color */
+}
+ 
+.present {
+    background-color: hwb(223 3% 0%); /* Yellow background for unverified present */
+    color: black; /* Black text color */
+}
+ 
+.absent {
+    background-color: #f8d7da; /* Light red background for unverified absent */
+    color: black; /* Black text color */
+}
+ 
+/* Additional styles to enhance the user interface */
+/* .container {
+    max-width: 900px;
+    margin: auto;
+}
+ 
+.card {
+    border-radius: 8px;
+}
+ 
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+  */

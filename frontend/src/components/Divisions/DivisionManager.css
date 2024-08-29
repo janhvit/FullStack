@@ -1,0 +1,79 @@
+/* DivisionManager.css */
+
+/* Background Image */
+.division-manager {
+    /* background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+    color: #333; */
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Card Hover Effect */
+  .card-body {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover .card-body {
+    background-color: #f8f9fa;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Button Transitions */
+  .btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  /* Alert Transitions */
+  .alert {
+    border-radius: 5px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .alert-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .alert-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .alert-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
