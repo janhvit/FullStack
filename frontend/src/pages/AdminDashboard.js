@@ -50,7 +50,7 @@ const AdminDashboard = () => {
       
 
       <div className="container mt-5">
-        <center><h3>Welcome to AdminDashboard..!    helooo</h3></center><br></br>
+        <center><h3>Welcome to AdminDashbardddddd..!</h3></center><br></br>
         <div className="row">
           <div className="col-md-4">
             <Card className="text-center">
